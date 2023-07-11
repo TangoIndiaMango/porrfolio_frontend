@@ -1,17 +1,13 @@
 
-
-import { homeDataType, socialLinkType } from '@/utils/types'
+import { socialLinkType } from '@/utils/types'
 import BackgroundSpline from '../components/backgroundSpline'
 import Header from '../components/header'
 import { getHomeData, getSocialLinks } from '../utils/request'
 import Image from "next/image"
 
-interface contentType {
-  homeData: homeDataType
-  socialLinks: socialLinkType[]
-}
 
-export default function Home({homeData, socialLinks}: contentType) {
+
+export default function Home() {
   return (
     <div className='container home-bg'>
       <BackgroundSpline />

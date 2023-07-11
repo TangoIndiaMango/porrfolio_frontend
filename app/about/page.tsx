@@ -1,11 +1,7 @@
 import BackgroundSpline from "@/components/backgroundSpline"
 import Header from "@/components/header"
 import { getAboutParagraphs } from "@/utils/request"
-import { aboutType } from "@/utils/types"
 
-interface contentType {
-  paragraphs: aboutType[]
-}
 
 export default function About() {
   return (

@@ -1,4 +1,3 @@
-"use client"
 
 import ExperiencePath, { ExperiencePathProps } from "@/components/experiencePath"
 import Header from "@/components/header"
