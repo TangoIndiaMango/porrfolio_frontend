@@ -1,6 +1,5 @@
 "use client"
 
-import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
@@ -45,7 +44,9 @@ export default Header
 
 export const Logo = () => (
     <div className="logo">
-        <Image src="https://res.cloudinary.com/aliyu-timi/image/upload/v1688974827/LogoAliyu_a3lgyj.jpg" alt="Dev" width="78" height="60"/>
+        <Link href="/">
+            <Image src="https://res.cloudinary.com/aliyu-timi/image/upload/v1688974827/LogoAliyu_a3lgyj.jpg" alt="Dev" width="78" height="60" />
+        </Link>
     </div>
 )
 

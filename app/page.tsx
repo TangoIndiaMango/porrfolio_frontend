@@ -1,9 +1,9 @@
 
 
+import { homeDataType, socialLinkType } from '@/utils/types'
 import BackgroundSpline from '../components/backgroundSpline'
 import Header from '../components/header'
-import { getHomeData, getSocialLinks } from '../components/request'
-import { homeDataType, socialLinkType } from '../components/types'
+import { getHomeData, getSocialLinks } from '../utils/request'
 import Image from "next/image"
 
 interface contentType {

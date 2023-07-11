@@ -1,7 +1,7 @@
 import axios, {AxiosError} from "axios"
 import { aboutType, blogType, experienceType, homeDataType, projectType, socialLinkType } from "./types"
 
-const baseUrl = "http://localhost:8000/portfolio-path/"
+const baseUrl = "https://backend-api-n9aa.onrender.com/portfolio-path/"
 
 export const getHomeData = async (): Promise<homeDataType | null> => {
     const resp = await axios.get( baseUrl + "user-detail-url/").catch(

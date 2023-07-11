@@ -1,10 +1,10 @@
 "use client"
 import BackgroundSpline from '@/components/backgroundSpline'
 import Header from '@/components/header'
-import { getProjects } from '@/components/request'
+import { getProjects } from '@/utils/request'
 import { GearSvg, LinkArrowSvg } from '@/components/svgs'
-import { projectType } from '@/components/types'
 import { useState } from 'react'
+import { projectType } from '@/utils/types'
 
 
 interface contentType {

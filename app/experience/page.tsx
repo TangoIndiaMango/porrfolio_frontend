@@ -2,7 +2,7 @@
 
 import ExperiencePath, { ExperiencePathProps } from "@/components/experiencePath"
 import Header from "@/components/header"
-import { getExperiences } from "@/components/request"
+import { getExperiences } from "@/utils/request"
 
 const Experience = async () => {
 
