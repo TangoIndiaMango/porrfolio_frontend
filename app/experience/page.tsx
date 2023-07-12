@@ -45,7 +45,7 @@ const Experience = async () => {
       <h4 className="expTitle">MY JOURNEY SO FAR!</h4>
       <div className="exp">
         {
-          processExperience().map((item, i) => <ExperiencePath {...item} isClosed={i === 0} isFlip={i % 2 !== 0} key={i} />)
+          processExperience().map((item, i) => <ExperiencePath {...item} key={i} />)
         }
 
       </div>

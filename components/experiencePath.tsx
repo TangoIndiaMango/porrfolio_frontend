@@ -12,7 +12,7 @@ export interface ExperiencePathProps {
     endDate: string
 }
 
-const ExperiencePath = ({ isFlip, isClosed, title, position, cover, spaceTop = 20, activities, startDate, endDate }: ExperiencePathProps) => {
+const ExperiencePath = ({  title, position, cover, activities, startDate, endDate }: ExperiencePathProps) => {
 
 
     return (<>
